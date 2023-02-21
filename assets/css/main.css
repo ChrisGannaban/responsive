@@ -3,8 +3,28 @@
 -----------------------------------------*/
 :root{
 /*colors */
---color-primary:#659e2d;
+--color-primary: #659e2d;
+--color-primary-light: #8ab45d;
+--color-primary-lighten: #f8fbf5;
+--color-secondary: #ffbd5f;
+--color-title: #2c3722;
+--color-text: #acb0b4;
+--color-border: #efefef;
+--color-white: #fff;
+--color-transparent: rgba(255,255,255, 0.98);
+--blur: 30px;
+
+
+
 /*typography */
 --font-family-primary:  'Poppins', sans-serif;
-
+--fs-xs: 1.2rem;
+--fs-sm: 1.4rem;
+--fs-md: 1.6rem;
+--fs-lg: 1.8rem;
+--fs-xl: 2rem;
+--fs-xxl: 2.8rem;
+--fs-xxxl: 3.2rem;
+--fs-biggest: clamp(3.4rem, 5vw 6.5rem);
 }
+
