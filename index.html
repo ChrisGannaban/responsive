@@ -6,40 +6,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-  
-    <script>
-        ScrollReveal({
-            reset: true
-        });
+    <link href="assets/css/main.css" rel="stylesheet">
 
-        ScrollReveal().reveal('.headline');
-        ScrollReveal().reveal('.tagline', {
-            delay: 500
-        });
-        ScrollReveal().reveal('.punchline', {
-            delay: 2000
-        });
-    </script>
+
+
 
 
 </head>
 
 <body>
+    <!--======================= Header =============================-->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__brand"><span>Food</span>Lover</a>
+            <div id="nav-menu" class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#feature" class="nav__link">Features</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#menu" class="nav__link">Menu</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <div class="nav__icon shop__icon">
+                    <i class="ri-shopping-bag-line"></i>
+                    <span class="shop__number">0</span>
+                </div>
+                <div class="nav__icon nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+                <div class="nav__icon sidebar__toggle">
+                    <i id="sidebar-toggle" class="ri-more-2-fill"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section style="height: 100vh;width: 100%;display: inline-flex;">
+            <div class="about__img" style="border: 1px solid red;">
+                <h1 class="headline">
+                    Widget Inc.
+                </h1>
+                <img src="assets/img/flask.png">
+            </div>
+            <div class="about__content" style="border: 1px solid blue;">
+                <p class="tagline">
+                    The perfect widgets.
+                    <span class="punchline">Forever.</span>
+                </p>
+            </div>
 
-    <h1 class="headline">
-        Widget Inc.
-    </h1>
-    <p class="tagline">
-        The perfect widgets.
-        <span class="punchline">Forever.</span>
-    </p>
-    <script src="https://unpkg.com/scrollreveal"></script>
+
+        </section>
+        <section style="height: 100vh;width: 100%;">
+            <figure>
+                <img src="assets/img/flask.png" alt="Space Shuttle">
+                <figcaption>NASA - Space Shuttle Discovery sdfsdf sdfhuisjdhfs ifhsiidhfuiaisdhfaui hfusuhfsifd hfsihfsui dfhusahdfsidhf ushf ishfi sf</figcaption>
+            </figure>
+            <aside>
+                <h1>Introduction to HTML</h1>
+                <p>HTML is a markup language that is used for creating web pages.</p>
+            </aside>
+          <article>
+                <h1>Introduction to HTML</h1>
+                <p>HTML is a markup language that is used for creating web pages.</p>
+            </article>
+
+            <p class="tagline">
+                The perfect widgets.
+                <span class="punchline">Forever.</span>
+            </p>
+
+        </section>
+    </main>
+    <footer>
+        <div>footer</div>
+    </footer>
+    <!-- scroll reveal animation-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!-- mixitup togle slider-->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!-- main js-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
